@@ -1,3 +1,9 @@
+// Dependencies :
+    // coinsCount system
+    // PlayersEffects
+    // PlayerHealth system
+    
+// Adjust to your needs.
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;

@@ -1,9 +1,29 @@
 # inventoryInUnity
 Inventory assets and manual to set-up fast.
+-------------
+Scripts and tutorial made by TUTO UNITY FR (alias zef) on youtube.
 
+Channel : https://www.youtube.com/channel/UCJRwb5W4ZzG43J5_dViL6Fw
+GitHub repo : https://github.com/TUTOUNITYFR/creer-un-jeu-en-2d-facilement-unity
 ----------
   MANUAL 
 ----------
+
+///////////////////////////////
+// Dependencies (scripts that calls instances to do stuff with, or other thingd that it needs to work) :
+Inventory.cs :
+    // coinsCount system
+    // PlayersEffects
+    // PlayerHealth system
+    
+// Adjust the scripts to your needs.
+///////////////////////////////
+Additional info : 
+- The healthBar can work with a slider system that uses a gradient. The lines that enable this functionality are commented (disabled). To enable the graident system, here are the steps :
+1. Uncomment the lines
+2. Drop "Fill" in the fill in "HealthBar" component.
+3. Click on the white color over the reference, named "Gradient". It'll open the gradient editor.
+4. Add your colors. Here's a visual explanation : https://youtu.be/Jcuaxz-ahDQ?t=1795
 
 1. Create a new script called "Item" and paste the script from the github.
 
