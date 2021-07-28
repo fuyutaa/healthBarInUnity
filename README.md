@@ -6,19 +6,10 @@ Scripts and tutorial made by *TUTO UNITY FR* (alias zef) on youtube.
 >Channel : https://www.youtube.com/channel/UCJRwb5W4ZzG43J5_dViL6Fw
 
 >GitHub repo : https://github.com/TUTOUNITYFR/creer-un-jeu-en-2d-facilement-unity
+
 ----------
   MANUAL 
 ----------
-
-***Dependencies (scripts that calls instances to do stuff with, or other thingd that it needs to work) :***
-- HealthBar.cs :
-    // coinsCount system
-    // PlayersEffects
-    // PlayerHealth system
-    
-***Adjust the scripts to your needs.***
-
-
 Additional info : 
 - The healthBar can work with a slider system that uses a gradient. The lines that enable this functionality are commented (disabled). To enable the graident system, here are the steps :
 1. Uncomment the lines
@@ -77,13 +68,6 @@ You may anchor your new stuff.
 
 21. Copy & Paste the contents of "PlayerHealth" from the github to your Unity script.
 
-22. Add the object reference "HealthBar" in the fill in "PlayerHealth" script.
+22. Add the references in "PlayerHealth" script.
 
 22. Add to the HealthBar the component reference "Slider" in the fill in "HealthBar" script.
-
-To create a scriptable object when the "Item" script has been added and loaded, go to Assets/Inventory/Item.
-
-
-
-
-x. Make a script called "Inventory"
