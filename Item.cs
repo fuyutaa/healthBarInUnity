@@ -1,3 +1,5 @@
+// No dependencies
+
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Item", menuName = "Inventory/Item")]
